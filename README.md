@@ -46,6 +46,8 @@ documents with dynamic schemas making the integration of data in certain types
 of applications easier and faster.
 
 CQL means cassandra query language.
+
+keyspace of cassandra is just like schema of mongodb
 ```
 
 ```
