@@ -58,6 +58,11 @@ sudo ./cassandra -R
 
 ./cqlsh
 
+brew install cassandra
+cassandra -f 
+(foreground)
+cqlsh
+
 create keyspace saiashish with replication={'class':'SimpleStrategy','replication_factor':1}
 
 use saiashish
