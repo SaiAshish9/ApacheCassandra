@@ -50,7 +50,7 @@ CQL means cassandra query language.
 
 ```
 curl -OL http://downloads.datastax.com/community/dsc.tar.gz
-tar -xzf dsc-cassandra-1.2.2-bin.tar.gz
+tar -xzf dsc.tar.gz
 cd dsc-cassandra-1.2.2/bin
 sudo ./cassandra
 
