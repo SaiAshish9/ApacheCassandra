@@ -26,3 +26,14 @@ was designed to implement a combination of Amazon's Dynamo distributed storage
 and replication techniques combined with Google's Bigtable data 
 and storage engine model.
 ```
+
+
+https://www.tutorialspoint.com/cassandra/cassandra_introduction.htm
+
+```
+Besides Cassandra, we have the following NoSQL databases that are quite popular −
+
+Apache HBase − HBase is an open source, non-relational, distributed database modeled after Google’s BigTable and is written in Java. It is developed as a part of Apache Hadoop project and runs on top of HDFS, providing BigTable-like capabilities for Hadoop.
+
+MongoDB − MongoDB is a cross-platform document-oriented database system that avoids using the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas making the integration of data in certain types of applications easier and faster.
+```
