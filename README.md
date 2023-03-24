@@ -8,6 +8,8 @@ https://cassandra.apache.org/_/index.html
 
 https://en.wikipedia.org/wiki/Apache_Cassandra
 
+https://www.datastax.com/blog/working-apache-cassandra-mac-os-x
+
 ```
 Open Source NoSQL Database
 Manage massive amounts of data, fast, without losing sleep
@@ -42,4 +44,16 @@ MongoDB − MongoDB is a cross-platform document-oriented database system that a
 using the traditional table-based relational database structure in favor of JSON-like
 documents with dynamic schemas making the integration of data in certain types
 of applications easier and faster.
+
+CQL means cassandra query language.
 ```
+
+```
+curl -OL http://downloads.datastax.com/community/dsc.tar.gz
+tar -xzf dsc-cassandra-1.2.2-bin.tar.gz
+cd dsc-cassandra-1.2.2/bin
+sudo ./cassandra
+
+/cqlsh
+```
+
