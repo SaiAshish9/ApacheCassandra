@@ -63,17 +63,26 @@ cassandra -f
 (foreground)
 cqlsh
 
-create keyspace saiashish with replication={'class':'SimpleStrategy','replication_factor':1}
+create keyspace saiashish with replication={'class':'SimpleStrategy','replication_factor':1};
 
-use saiashish
+use saiashish;
 
 CREATE TABLE User(
    id int PRIMARY KEY,
    name text,
    address text,
    age int
-)
+);
 
 select * from User;
 ```
 
+<img width="563" alt="Screenshot 2023-03-24 at 10 24 44 PM" src="https://user-images.githubusercontent.com/43849911/227590604-533155a4-ee16-4361-9e87-ae2c36389373.png">
+
+<img width="683" alt="Screenshot 2023-03-24 at 10 25 37 PM" src="https://user-images.githubusercontent.com/43849911/227590789-d0a4e212-d35b-40b2-bcbf-6e2c07522093.png">
+
+<img width="951" alt="Screenshot 2023-03-24 at 10 26 42 PM" src="https://user-images.githubusercontent.com/43849911/227591037-e1aff44e-4a26-41af-aa04-4d8569402dad.png">
+
+<img width="887" alt="Screenshot 2023-03-24 at 10 27 19 PM" src="https://user-images.githubusercontent.com/43849911/227591197-e02de609-434c-429f-aa75-b56994cbe530.png">
+
+<img width="620" alt="Screenshot 2023-03-24 at 10 28 14 PM" src="https://user-images.githubusercontent.com/43849911/227591430-ca8b806a-6dd3-44b1-ae15-73c747b7e849.png">
