@@ -54,6 +54,19 @@ tar -xzf dsc.tar.gz
 cd dsc-cassandra-1.2.2/bin
 sudo ./cassandra
 
-/cqlsh
+./cqlsh
+
+create keyspace saiashish with replication={'class':'SimpleStrategy','replication_factor':1}
+
+use saiashish
+
+CREATE TABLE User(
+   id int PRIMARY KEY,
+   name text,
+   address text,
+   age int
+)
+
+select * from User;
 ```
 
