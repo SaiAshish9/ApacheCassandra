@@ -51,10 +51,10 @@ keyspace of cassandra is just like schema of mongodb
 ```
 
 ```
-curl -OL http://downloads.datastax.com/community/dsc.tar.gz
-tar -xzf dsc.tar.gz
-cd dsc-cassandra-1.2.2/bin
-sudo ./cassandra
+https://downloads.datastax.com/#enterprise
+tar -xzf dse-6.8.33-bin.tar.gz 
+cd dse-6.8.33/resources/cassandra/bin
+sudo ./cassandra -R
 
 ./cqlsh
 
